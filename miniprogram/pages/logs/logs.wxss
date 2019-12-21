@@ -1,0 +1,97 @@
+/* miniprogram/pages/logs.wxss */
+     
+.a{
+  color:brown;
+  width: 200px;
+  height: 300px;  
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  bottom: 0;
+}
+.t{
+  background-color: rgb(214, 148, 179);
+  color:rgb(245,238,241);
+  border-radius: 360rpx;
+  top: 390rpx;
+  width:40%
+}
+
+.tui-tabbar-cell {
+  color:rgb(145, 100, 113);
+  left: 330px;
+  border:1ch;
+  position: absolute;
+  font-size: 30rpx
+}
+
+
+.btn_hover {
+  background-color: rgb(170, 169, 169);
+}
+
+.two{
+ position: absolute;
+ top: 300px; 
+ font-size: 40rpx;
+}
+.one{
+  font-size: 40rpx;
+ position: absolute;
+ top: 255px; 
+}
+.three{
+  font-size: 40rpx;
+ position: absolute;
+ top: 345px; 
+}
+
+
+.tui-tabbar-group{
+  position:absolute;
+  top:450px;
+  left:90px;
+}
+.la{
+  font-size: 40rpx;
+position:absolute;
+top:120px;
+}
+.lb{
+  font-size: 40rpx;
+position:absolute;
+top:160px;
+
+}
+.lc{
+  font-size: 40rpx;
+  position:absolute;
+top:80px;
+}
+
+.day-weather {
+  position:absolute;
+top:420px;
+left:90px;
+width:18%;
+  height: 10%;
+
+}
+.tiaozhuan{
+  font-size: 55rpx;
+   color:rgb(155, 70, 95);
+   position :absolute;
+   top:430px;
+   left:160px;
+}
+page{
+  height:100%;
+}
+.background {
+  top:0px;
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}

@@ -1,0 +1,55 @@
+.lunbo{
+  width:100%
+}
+.lunbo image{
+  width:100%
+}
+.hydt{
+font-size: 30px;
+font-family: KaiTi;
+font-weight: bold
+
+}
+.haoyou{
+  height: 40px;
+  width: 150px
+
+}
+.bianxie{
+  height: 50px;
+  width: 50px;
+  position: absoulte;
+  left: 150px;
+  top: 300;
+}
+.dttp{
+  height:100px;
+  width:100px;
+}
+.touxiang{
+  height: 40px;
+  width:40px;
+}
+.nickName{
+  font-size:25px;
+}
+.content{
+  font-size:20px;
+}
+.xuhao{
+  font-size:20px;
+}
+
+.neirong{
+  /* display: flex;
+  flex-direction: row; */
+
+
+
+}
+.right-view{
+  /* display: flex;
+  flex-direction: column-reverse */
+  /* position: absolute;
+  left:40px */
+}

@@ -1,0 +1,14 @@
+.sorry{
+  position:absolute;
+  font-size:50rpx;
+  top:200rpx;
+  left:100rpx;
+  color:#F4A460
+}
+.sosorry{
+  position:absolute;
+  font-size:50rpx;
+  top:500rpx;
+  left:100rpx;
+  color:#F4A460
+}

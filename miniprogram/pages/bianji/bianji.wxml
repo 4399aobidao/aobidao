@@ -1,0 +1,14 @@
+<form bindsubmit='submitFunc'>
+  <textarea name="input_word" bindinput='input' maxlength='-1' value='{{text}}' placeholder="快来分享一下今天的成果和感想吧" ></textarea>
+</form> 
+<!-- <view><text class="huoqutupian" bindtap="chooseimage">点击获取图片</text></view>
+<view class="tupianmen"> -->
+<view class="tupianmen">
+
+<image class="huoqutupian" bindtap="chooseimage" src="{{huoqutupian}}" mode='aspectFit'></image>
+<!-- <image class="huoqutupian2" src="{{huoqutupian2}}" mode='aspectFit' ></image> -->
+<image class="imgUrl" wx:if='{{imgUrl}}' src="{{imgUrl}}" mode='aspectFit' ></image>
+<!-- <view></view> -->
+</view>
+<button class="wancheng" bindtap='send' hover-class="hover-class" >完成</button>
+

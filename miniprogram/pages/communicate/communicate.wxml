@@ -1,0 +1,51 @@
+ <!--是否显示圆点，自动播放， 间隔时间， 监听滚动和点击事件-->
+<swiper class="lunbo" indicator-dots="true" autoplay="true" duration="1000" bindchange="listenSwiper" >
+<!--swiper-item只能包含一个节点再多会自动删除-->
+    <swiper-item>
+       
+       <view><image src="/images/lizhi1.jpg"></image></view>
+    </swiper-item>
+    <swiper-item>
+         <view><image src="/images/lizhi2.jpg"></image></view>
+    </swiper-item>
+        <swiper-item>
+          <view><image src="/images/lizhi3.jpg"></image></view>
+    </swiper-item>    
+</swiper>
+<view class='hydt'style='background-image:url("../../images/timg.jpg")' bindtap="shuaxin">
+<view class='biaoxie'>
+<image class='haoyou' src="/images/haoyou.png"></image>
+<!-- </view> -->
+<!-- <view> -->
+<image class='bianxie' src="/images/bianxie.jpg" bindtap="bianji"></image>
+
+</view>
+
+<!-- <scroll-view> -->
+<view class='a' wx:for="{{ne}}">
+ <view class='neirong'>
+    <!-- <view class='left-view'>
+     <image class="touxiang"></image>
+    </view> -->
+    
+    <view class='right-view' >
+     <view class="xuhao">序号：{{index+1}}</view>
+    <!-- <view class="nickName" >{{item.nickName}}</view> -->
+    <view >
+    <image class="touxiang" src="{{item.avatar}}"></image>
+    <text class="nickName" >{{item.nickName}}</text>
+    </view>
+    <!-- <view>{{item._id}}</view>
+    <view >{{item._openid}}</view> -->
+     <view class="content">{{item.content}}</view>
+    
+     <view >{{item.id}}</view>
+     <view >
+     <image class="dttp" src="{{item.image}}" bindtap="yulan"></image>
+     
+     </view>
+    </view>
+ </view>
+</view>
+</view>
+<!-- </scroll-view> -->

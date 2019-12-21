@@ -1,0 +1,20 @@
+   
+  <buttom class="container1" bindtap="go" data-id="chat1" >聊天室1</buttom>
+  <buttom class="container2" bindtap="go" data-id="chat2" >聊天室2</buttom>
+  <buttom class="container3" bindtap="go" data-id="chat3" >聊天室3</buttom>
+  <buttom class="container4" bindtap="go" data-id="chat4" >聊天室4</buttom>
+  <buttom class="container5" bindtap="go" data-id="chat5" >聊天室5</buttom>
+  <buttom class="container6" bindtap="go" data-id="chat6" >聊天室6</buttom>
+
+
+<image class="icon" src="../../images/icon2.png"></image>
+<image class="icon2" src="../../images/icon3.png"></image>
+<image class="icon3" src="../../images/icon4.png"></image>
+<image class="icon4" src="../../images/icon5.png"></image>
+<image class="icon5" src="../../images/icon6.png"></image>
+<image class="icon6" src="../../images/icon7.png"></image>
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../images/background3.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>

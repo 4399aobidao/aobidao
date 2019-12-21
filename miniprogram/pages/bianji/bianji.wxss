@@ -1,0 +1,30 @@
+.huoqutupian{
+  height: 100px;
+  width: 100px
+
+}
+/* .huoqutupian2{
+  height: 100px;
+  width: 100px
+
+} */
+.hover-class{
+  background-color: pink;
+
+}
+.wancheng{
+  width: 100%;
+  size:default;
+  font-size: 25px;
+  color:rgb(209, 12, 88);
+  
+
+}
+.imgUrl{
+  height: 100px;
+  width: 100px;
+}
+  
+
+
+

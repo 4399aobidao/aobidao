@@ -1,0 +1,53 @@
+<form bindsubmit="formBindsubmit" bindreset="formReset">
+  <view class="lc" style="display:flex;">
+    <label>1:</label>
+    <input name="b" placeholder="打卡目标" />
+  </view>
+  <view class="la"style="display:flex;">
+    <label >2:</label>
+    <input name="c" placeholder="打卡目标" />
+  </view>
+  <view class="lb"style="display:flex;">
+    <label>3:</label>
+    <input name="d" placeholder="打卡目标" />
+  </view> 
+
+
+  <view style="display:flex;">
+    <button class="t"  hover-class='btn_hover'  formType="submit" >提交</button>
+    <button class="t"  hover-class='btn_hover'  formType="reset" >重置</button>
+    
+  </view>
+  </form>
+<view class="one" style="display:flex;">
+{{b}}
+ <text data-id="34" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 34 ? 'tui-active' : ''}}">完成</text>
+
+</view>
+
+<view class="two" style="display:flex;">
+{{c}}
+<text data-id="68" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 68 ? 'tui-active' : ''}}">完成</text>
+
+</view>
+
+<view class="three" style="display:flex;">
+{{d}}
+<text data-id="100" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 100 ? 'tui-active' : ''}}">完成</text>
+</view>
+
+<text  bindtap='onTapDayWeather' class="tiaozhuan">分享打卡</text>
+<image class='day-weather' src="../images/icon1.png"></image>
+
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../images/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+
+<progress class="p" color="rgb(247, 57, 105)" stroke-width="30px" backgroundColor="rgb(247,223,228)" percent="{{index}}"show-info> </progress>
+
+
+
+
+  

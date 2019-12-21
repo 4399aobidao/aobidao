@@ -1,0 +1,104 @@
+.avatar {
+  opacity: 0.9;
+  width: 200rpx;
+  height: 200rpx;
+  top: 150rpx;
+  left:20rpx;
+  position:absolute;
+  border-radius: 50%;
+
+}
+
+.nickname {
+  font-size:80rpx;
+  top: 160rpx;
+  position:absolute;
+  left:250rpx;
+  color:rgba(226, 153, 43, 0.692)
+}
+
+.gender{
+  position:absolute;
+  top:180rpx;
+  left: 420rpx;
+}
+
+.daojishi{
+  position:absolute;
+  color:black;
+  left:130rpx;
+  top:500rpx;
+  background-color: pink;
+
+}
+
+.djs{
+  position:absolute;
+  width:80rpx;
+  height:80rpx;
+  top:490rpx;
+  left:20rpx;
+
+}
+.fanqiezhong{
+  position:absolute;
+  color:black;
+  left:130rpx;
+  top:600rpx;
+  background-color: pink;
+
+}
+
+.fqz{
+  position:absolute;
+  width:80rpx;
+  height:80rpx;
+  top:590rpx;
+  left:20rpx;
+
+}
+.rili{
+  position:absolute;
+  color:black;
+  left:130rpx;
+  top:700rpx;
+  background-color: pink;
+
+}
+
+.rl{
+  position:absolute;
+  width:80rpx;
+  height:80rpx;
+  top:690rpx;
+  left:20rpx;
+
+}
+.kaifazhe{
+  position:absolute;
+  color:black;
+  left:130rpx;
+  top:800rpx;
+  background-color: pink;
+
+}
+
+.kfz{
+  position:absolute;
+  width:80rpx;
+  height:80rpx;
+  top:790rpx;
+  left:20rpx;
+
+}
+
+page{
+  height:100%;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}

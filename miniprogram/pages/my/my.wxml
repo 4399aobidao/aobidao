@@ -1,0 +1,20 @@
+
+<image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+<view class="nickname">{{userInfo.nickName}}</view> 
+<navigator url="../../pages/daojishi/daojishi">
+ <view class="daojishi">倒计时</view>
+</navigator>
+<image class="djs" src="/pages/images/4.png" mode="aspectFill"></image>
+<navigator url="../../pages/time/time">
+ <view class="fanqiezhong">番茄钟</view>
+</navigator>
+<image class="fqz" src="/pages/images/5.png" mode="aspectFill"></image>
+<navigator url="../../pages/rili/rili">
+ <view class="rili">日历</view>
+</navigator>
+<image class="rl" src="/pages/images/6.png" mode="aspectFill"></image>
+<navigator url="../../pages/kaifazhe/kaifazhe">
+ <view class="kaifazhe">开发者</view>
+</navigator>
+<image class="kfz" src="/pages/images/7.png" mode="aspectFill"></image>
+<image class="back" src="/pages/images/8.png" mode="aspectFill"></image>

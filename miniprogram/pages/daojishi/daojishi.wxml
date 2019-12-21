@@ -1,0 +1,13 @@
+<view class="title">奋斗吧，今年只剩</view>
+ <view class="countDownTimeView countDownAllView" >
+
+      <view class="zv">{{countDownDay}}天</view>
+
+      <view class="sh">{{countDownHour}}时</view>
+
+      <view class="fen">{{countDownMinute}}分</view>
+
+      <view class="mi">{{countDownSecond}}秒</view>
+
+    </view>
+    <image class="back" src="/pages/images/11.jpg" mode="aspectFill"></image>

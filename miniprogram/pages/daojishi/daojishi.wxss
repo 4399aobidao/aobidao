@@ -1,0 +1,47 @@
+.title{
+  position:absolute;
+  top:200rpx;
+  left:200rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.zv{
+  position:absolute;
+  top:300rpx;
+  left:100rpx;
+  font-size: 50rpx;
+
+}
+.sh{
+  position:absolute;
+  top:300rpx;
+  left:220rpx;
+  font-size: 50rpx;
+
+}
+.fen{
+  position:absolute;
+  top:300rpx;
+  left:340rpx;
+  font-size: 50rpx;
+
+}
+.mi{
+  position:absolute;
+  top:300rpx;
+  left:460rpx;
+  font-size: 50rpx;
+
+}
+
+page{
+  height:100%;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}

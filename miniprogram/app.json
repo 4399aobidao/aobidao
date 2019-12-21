@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/communicate/communicate",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/time/time",
+    "pages/daojishi/daojishi",
+    "pages/rili/rili",
+    "pages/kaifazhe/kaifazhe",
+    "pages/bianji/bianji",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#DB7093",
+    "navigationBarTitleText": "奥比岛",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "打卡",
+        "iconPath": "pages/images/certificate.png",
+        "selectedIconPath": "pages/images/certificate.png"
+      },
+      {
+        "pagePath": "pages/communicate/communicate",
+        "text": "交流",
+        "iconPath": "pages/images/1.png",
+        "selectedIconPath": "pages/images/1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/images/2.png",
+        "selectedIconPath": "pages/images/2.png"
+      }
+    ]
+  }
+}
